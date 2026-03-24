@@ -2,7 +2,7 @@
 
 **Create GIFs from Video — Instantly. No FFmpeg commands required.**
 
-Domenico is a fast, lightweight desktop application for Linux that converts short video clips into optimized animated GIFs. Built as a companion to Leonardo, Domenico focuses on one thing — creating high-quality GIFs quickly and easily.
+Domenico is a cross-platform desktop application that lets you create optimized looping animated GIFs from video files using FFmpeg — without needing to remember complex commands.
 
 ---
 
