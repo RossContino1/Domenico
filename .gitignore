@@ -1,0 +1,20 @@
+# Java
+*.class
+*.jar
+*.log
+*.iml
+out/
+build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AppImage build leftovers
+AppDir/
+*.AppImage
