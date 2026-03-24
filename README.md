@@ -5,7 +5,7 @@
 Domenico is a cross-platform desktop application that lets you create optimized looping animated GIFs from video files using FFmpeg — without needing to remember complex commands.
 
 ---
-
+**Domenico In Action!**
 <p align="center">
   <img src="assets/PrepVideo.gif" height="400"/>
 </p>
