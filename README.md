@@ -7,7 +7,7 @@ Domenico is a cross-platform desktop application that lets you create optimized 
 ---
 
 <p align="center">
-  <img src="assets/testtogif.gif" height="400"/>
+  <img src="assets/PrepVideo.gif" height="400"/>
 </p>
 
 
