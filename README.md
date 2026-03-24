@@ -6,6 +6,11 @@ Domenico is a cross-platform desktop application that lets you create optimized 
 
 ---
 
+<p align="center">
+  <img src="assets/testtogif.gif" height="400"/>
+</p>
+
+
 ## 🚀 Features
 
 - 🎬 Convert video clips to animated GIFs
