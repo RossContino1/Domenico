@@ -90,7 +90,25 @@ Make it executable and run:
 chmod +x Domenico.AppImage
 ./Domenico.AppImage
 ```
+⚠️ Having Trouble Launching?
 
+If the AppImage doesn’t start, your system may be missing FUSE.
+
+Fix (quick):
+
+**Fedora:**
+
+sudo dnf install fuse fuse-libs
+
+**Ubuntu / Mint:**
+
+sudo apt install libfuse2
+
+**Arch:**
+
+sudo pacman -S fuse2
+
+👉 After installing, try launching again.
 ---
 
 ### ☕ Portable JAR (Advanced / Cross-Platform)
