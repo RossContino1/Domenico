@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+HERE="$(dirname "$(readlink -f "$0")")"
+JAR="$HERE/usr/lib/Domenico/Domenico.jar"
+
+if command -v java >/dev/null 2>&1; then
+  exec java -jar "$JAR" "$@"
+fi
+
+if [[ -x /usr/bin/java ]]; then
+  exec /usr/bin/java -jar "$JAR" "$@"
+fi
+
+if command -v xmessage >/dev/null 2>&1; then
+  xmessage "Domenico requires Java 17 or newer to be installed on this system."
+else
+  echo "Domenico requires Java 17 or newer to be installed on this system." >&2
+fi
+
+exit 1

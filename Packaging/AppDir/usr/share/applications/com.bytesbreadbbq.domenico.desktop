@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Domenico
+Comment=Create animated GIFs from short video clips
+Exec=AppRun
+Icon=Domenico
+Categories=AudioVideo;Video;Graphics;
+Terminal=false
+StartupNotify=true
